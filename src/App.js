@@ -68,7 +68,7 @@ class App extends Component {
     }
     // since this is checked before the state of the high score is changed, once the high score is 
     // read as 12, then the user will win and reset the game
-    if (this.state.highScore === 11) {
+    if (this.state.score === 11) {
       alert("You won!");
       this.setState({
         highScore: this.state.highScore + 1
