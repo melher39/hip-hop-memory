@@ -1,0 +1,19 @@
+/* images are responsive */
+img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+/* navbar background color */
+nav {
+    background-color: #d32f2f   ;
+}
+
+/* at the breakpoint of 600px... */
+@media screen and (max-width:600px){
+    /* make the title just big enough so as to not overlap, but not too small either */
+    nav .brand-logo {
+        font-size: 125%;
+    }
+}
